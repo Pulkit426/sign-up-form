@@ -9,6 +9,19 @@ body{
 
 .img-section{
     width: 40%;
+    position: relative;
+}
+
+.img-section>p{
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 20%;
+}
+
+p>a{
+    color: white;
+    text-decoration: none;
 }
 
 .form-section{
@@ -26,4 +39,57 @@ body{
     padding: 20px;
     padding-top: 75px;
     background-color: azure;
+}
+
+
+li{
+    list-style: none;
+}
+
+label{
+    display: inline-block;
+    margin: 5px 30px;
+    width: 150px;
+}
+
+
+input{
+    margin: 5px;
+    width: 200px;
+}
+
+input:focus{
+    border: 3px solid lightblue;
+}
+
+
+button{
+    margin: 20px;
+    padding: 5px;
+    font-size:medium;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: rgb(200,104,0);
+}
+
+button:hover{
+    color: rgb(200,104,0);
+    border: 1px solid rgb(200,104,0);
+    background-color: white;
+    cursor: pointer;
+}
+
+.login{
+    margin: 50px;
+    font-size: 16px;
+}
+
+.login>a{
+    font-weight: 800;
+    color: rgb(200,104,0);
+    cursor: pointer;
+    text-decoration: none;
 }
