@@ -74,7 +74,8 @@ li{
 label{
     display: inline-block;
     margin: 5px 30px;
-    width: 150px;
+    width: 200px;
+    font-size: 18px;
 }
 
 
@@ -83,8 +84,14 @@ input{
     width: 200px;
 }
 
-input:focus{
-    border: 3px solid lightblue;
+input:focus:valid{
+    border: 3px solid green;
+    outline: none;
+}
+
+input:focus:invalid{
+    border: 3px solid red;
+    outline: none;
 }
 
 
