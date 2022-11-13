@@ -12,6 +12,32 @@ body{
     position: relative;
 }
 
+.odin-logo{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color:black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-logo>img{
+    height: 150px;
+    width: 100px;
+}
+
+.odin-logo>span{
+    margin: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
 .img-section>p{
     color: white;
     position: absolute;
@@ -21,7 +47,6 @@ body{
 
 p>a{
     color: white;
-    text-decoration: none;
 }
 
 .form-section{
@@ -93,3 +118,4 @@ button:hover{
     cursor: pointer;
     text-decoration: none;
 }
+
